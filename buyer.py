@@ -124,7 +124,7 @@ sellMode = False
 onlyOne = False
 groupBuy = False
 
-browser = webdriver.Firefox(executable_path=r"C:\\Users\\Luciano\Desktop\\geckodriver.exe")
+browser = webdriver.Firefox(executable_path=r"")
 browser.get("https://www.easports.com/fifa/ultimate-team/web-app/")     
 time.sleep(10)
 loginButton = browser.find_element_by_xpath('/html/body/section/div/div/div/button[1]')
